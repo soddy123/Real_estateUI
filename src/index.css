@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base{
+   body {
+      @apply bg-bg_color;
+   }
+}
+
+@layer components{
+   .btn{
+      @apply mt-4 px-5 py-3 md:px-7 md:py-4 rounded
+   }
+   .img{
+      @apply w-24 h-[480px] object-cover rounded-lg;
+   }
+   .bg{
+      background-image: url("./assets/mission.jpg");
+      background-position:center;
+      background-size:cover;
+      height:400px;
+      width:100%;
+   }
+   .box h3{
+      @apply text-xl py-2 text-center;
+
+   }
+   .box .image{
+      @apply w-full flex justify-center text-6xl text-gray-700;
+   }
+   .box p{
+      @apply opacity-80 leading-7 text-center;
+   }
+   .box button{
+      @apply text-green-500 text-[18px] w-full text-center;
+   }
+   .content-bg{
+      background-image: url("./assets/img6.jpg");
+      background-position: center;
+      background-size: fill;
+      height: 400px;
+      filter:invert(10%);
+
+   }
+   .menu{
+      @apply flex flex-col gap-4 items-center font-medium;
+
+   }
+   .icon{
+      @apply border border-black/10 p-4 rounded-full cursor-pointer text-xl;
+   } 
+}
