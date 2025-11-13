@@ -51,7 +51,7 @@ src/
  └── index.jsx
 ```
 
-##Usage
+## Usage
 
 Visitors can browse property listings and view featured developments.
 
@@ -59,7 +59,7 @@ Clients or customers can contact you via the provided contact form or details.
 
 Easily update content to add new listings or update service information.
 
-##Future Enhancements
+## Future Enhancements
 
 Add filtering and search functionality for property listings.
 
@@ -70,6 +70,7 @@ Integrate a map view for properties (e.g., Google Maps).
 Add an admin dashboard to manage listings.
 
 Add animations, rich media (video tours), and dark mode.
+
 
 
 
